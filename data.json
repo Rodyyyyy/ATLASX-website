@@ -1,0 +1,876 @@
+{
+  "users": [
+    {
+      "id": "admin1",
+      "username": "admin",
+      "password": "$2a$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi",
+      "role": "admin",
+      "likes": [],
+      "wishlist": [],
+      "visited": [
+        "france1"
+      ]
+    },
+    {
+      "id": "1766541552391",
+      "username": "samsoma",
+      "password": "$2a$10$6ECxCbRE0YMwwLE6hKjvPuZBBjPmDBBIatP0i6Q.YqpagNRdWg6yO",
+      "role": "user",
+      "likes": [],
+      "wishlist": [],
+      "visited": []
+    },
+    {
+      "id": "1766678109575",
+      "username": "mohamed",
+      "password": "$2a$10$hwm3obBES0yy/FidKpN7r.xbjrxTpcENUyo1lkMqdiFd6.8Pa7hbS",
+      "role": "user",
+      "likes": [],
+      "wishlist": [],
+      "visited": []
+    }
+  ],
+  "places": [
+    {
+      "_id": "france1",
+      "name": "Eiffel Tower",
+      "desc": "Iconic iron lattice tower with panoramic views of Paris",
+      "img": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcRRGbOFH2AaDYA_IF3WOB5n9hzPEiOPETGHWtoCU_BfxLLOQzjZlfXnonKzfsILf-5qVtziwKTHLjVaRNj9XL0xH5Ht1GH8e9_I1xrq9l4A0OQwaiQ",
+      "tag": "Landmark",
+      "city": "paris",
+      "country": "France",
+      "vibes": [
+        "romantic",
+        "historic",
+        "photography"
+      ],
+      "season": "spring"
+    },
+    {
+      "_id": "france2",
+      "name": "Louvre Museum",
+      "desc": "World's largest art museum housing the Mona Lisa",
+      "img": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcQyhYknbwXkYtHubHgXGQpGlxCguk4Rt1XDnnSWpxja88Ii6NuB-xOm7uPpcnLEhy3N78XwoXXluJWeCxSirMlgKkS_9OAOGJl-PFsXwqekzBSdcno",
+      "tag": "Museum",
+      "city": "paris",
+      "country": "France",
+      "vibes": [
+        "cultural",
+        "historic"
+      ],
+      "season": "winter"
+    },
+    {
+      "_id": "france3",
+      "name": "Versailles Palace",
+      "desc": "Opulent royal château with lavish gardens and Hall of Mirrors",
+      "img": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSzMDAuiDafF5wXsaHjbhqtEFGrV0jfxT95uPyMEN_qVh02-0sunBbXx3_GXP26tzeOHOrTZoQ2vswtF4714Pe4yLt9ARNZvis4bjG_IQzWpiyclYU",
+      "tag": "Palace",
+      "city": "versailles",
+      "country": "France",
+      "vibes": [
+        "historic",
+        "luxury"
+      ],
+      "season": "autumn"
+    },
+    {
+      "_id": "france4",
+      "name": "Mont Saint-Michel",
+      "desc": "Medieval abbey on a rocky island surrounded by tides",
+      "img": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSxLjndYx-r9nT9sYp-o_tzEDksJG5OLcl2-3SfOxw_yQOI9TWcWwkfq79Jx_PT",
+      "tag": "Historic",
+      "city": "montsaintmichel",
+      "country": "France",
+      "vibes": [
+        "mystical",
+        "historic"
+      ],
+      "season": "summer"
+    },
+    {
+      "_id": "france5",
+      "name": "Notre-Dame Cathedral",
+      "desc": "Gothic masterpiece with flying buttresses and rose windows",
+      "img": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcRmz_iKAtAUfxUzM4xvctm-l73wVjwK0ikfgsSfbUBmAYM-dHc7jRq37AldgW-0qWbl6f9JI4J2T1EGANMmdiPUoAO3zOnbosXI0DyaYE9oqm53f9E",
+      "tag": "Cathedral",
+      "city": "paris",
+      "country": "France",
+      "vibes": [
+        "historic",
+        "cultural"
+      ],
+      "season": "spring"
+    },
+    {
+      "_id": "france6",
+      "name": "Arc de Triomphe",
+      "desc": "Monument honoring those who fought in French wars",
+      "img": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSCPwhymaB8DM-d4robyvJRF4hGIYM5vHNg5OR-I3PDpP8I3VuzbE4VLOq4LMFtqSKJB9UdJIhEQfDTLprJLgqRhqf4k9_Gcrpnh-gJ2ZoSPVfNi8A",
+      "tag": "Monument",
+      "city": "paris",
+      "country": "France",
+      "vibes": [
+        "historic",
+        "patriotic"
+      ],
+      "season": "autumn"
+    },
+    {
+      "_id": "japan1",
+      "name": "Mount Fuji",
+      "desc": "Iconic snow-capped volcano and Japan's highest peak",
+      "img": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQLtCIXPDLGNJgxhbSQyGZdZziCu7_NyPHJs9JUOBWIVFxNeFq7Pc-BcKAIR2OSeloEGdhGqQE2NhNmuzAKYIDjXl8vKPeRUziyTJNPeDcx7lLovoo",
+      "tag": "Mountain",
+      "city": "fuji",
+      "country": "Japan",
+      "vibes": [
+        "nature",
+        "spiritual"
+      ],
+      "season": "winter"
+    },
+    {
+      "_id": "japan2",
+      "name": "Fushimi Inari Shrine",
+      "desc": "Thousands of red torii gates leading up the mountain",
+      "img": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRSNn3OWLpWRcIF5r1JWiCqQudUOw9KrNIWiOkwcrKdKyp7wXBp4f59-AKieO8IrUtMXqsCQ_UCFIe4vlpn7EBC6agKVS4y_7roqISOsK5wRMAJLCM",
+      "tag": "Shrine",
+      "city": "kyoto",
+      "country": "Japan",
+      "vibes": [
+        "spiritual",
+        "photography"
+      ],
+      "season": "autumn"
+    },
+    {
+      "_id": "japan3",
+      "name": "Tokyo Tower",
+      "desc": "Red and white lattice tower with city views",
+      "img": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcRxRp3Js9_MwFvpbjLIYSoaDtKLJOVcM5T-VLxsRnfdRA5C1NiBAlLk5gGlxYzR3Puv0t5esVNfO6iQVH-9SJFnFk-UUdyL1p7ZfymoduUNXT7eGNA",
+      "tag": "Landmark",
+      "city": "tokyo",
+      "country": "Japan",
+      "vibes": [
+        "modern",
+        "urban"
+      ],
+      "season": "spring"
+    },
+    {
+      "_id": "japan4",
+      "name": "Shibuya Crossing",
+      "desc": "World's busiest pedestrian crossing in vibrant district",
+      "img": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcRpzaxdLIgWOII6CjRm0MVHvSwuEPbVgGyuBLS2f5jas281v_oGzry5oHlxHsRDhAzazn-viykMKvD6-c8wVtWF8KcIT2ik-OvFb2jOy5B6qDVWgLw",
+      "tag": "Urban",
+      "city": "tokyo",
+      "country": "Japan",
+      "vibes": [
+        "modern",
+        "energetic"
+      ],
+      "season": "any"
+    },
+    {
+      "_id": "japan5",
+      "name": "Arashiyama Bamboo Grove",
+      "desc": "Towering bamboo forest path near Kyoto",
+      "img": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcT9F5LB1dIYj6Wam6VY6TXfHo7ZMZP6pjnFAIAwbIYEloR-YOCCKhCdjocXKsLs_EUKeKpDHjX3JcilvrstSHliOG-LB5ynRkUOKHjPAujBYRfIgEo",
+      "tag": "Nature",
+      "city": "kyoto",
+      "country": "Japan",
+      "vibes": [
+        "serene",
+        "nature"
+      ],
+      "season": "summer"
+    },
+    {
+      "_id": "japan6",
+      "name": "Hiroshima Peace Memorial",
+      "desc": "Domed ruin and park commemorating atomic bomb victims",
+      "img": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcTXRpC96RRxka6R9NFlMyK3zrkt6y_HnXwElcP39ubx8inUfoiPvvtacAfRpqlGiM4Q0tIf228mv3Vu7d0BUrr_VeoloetcstlWNJ-e8wH1qB3p9ZE",
+      "tag": "Memorial",
+      "city": "hiroshima",
+      "country": "Japan",
+      "vibes": [
+        "historic",
+        "reflective"
+      ],
+      "season": "spring"
+    },
+    {
+      "_id": "italy1",
+      "name": "Colosseum",
+      "desc": "Ancient amphitheater where gladiators fought",
+      "img": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcSgxsrhG-yRHGGCZzzFfHYfJRFE_P3UogNkpEO5ZKdG4ut9viuz3xgnDoDaWlU7bwMwPucasiFKFYeP-JCjctPAK7_81OfUlFSdoPZwve2TlRgZSfw",
+      "tag": "Historic",
+      "city": "rome",
+      "country": "Italy",
+      "vibes": [
+        "historic",
+        "cultural"
+      ],
+      "season": "spring"
+    },
+    {
+      "_id": "italy2",
+      "name": "Venice Canals",
+      "desc": "Romantic waterways with gondolas and historic buildings",
+      "img": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRqwjDrMOnXeaynCqdP4cg8lQtm2aTmxQXde5pgLxTdm_ERVOby1i2B-ZbkI2B_BKBGu8Xqadui2zKjmJfAAFzm1KWbLOn5JR35CL13teI7nnTtaQY",
+      "tag": "Canals",
+      "city": "venice",
+      "country": "Italy",
+      "vibes": [
+        "romantic",
+        "historic"
+      ],
+      "season": "autumn"
+    },
+    {
+      "_id": "italy3",
+      "name": "Leaning Tower of Pisa",
+      "desc": "Famous tilted bell tower in cathedral square",
+      "img": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcRhjjkA-T7xsRDDvJM6YE2pgKQDgekDdawhEJUDtPFAw5prIEYhaCMC55sHeGxhriYjvbk1ozlMt3SJ3u6u_evIZHyNQdzzAP_2TIe04MmrAyG0B_0",
+      "tag": "Landmark",
+      "city": "pisa",
+      "country": "Italy",
+      "vibes": [
+        "historic",
+        "fun"
+      ],
+      "season": "summer"
+    },
+    {
+      "_id": "italy4",
+      "name": "Amalfi Coast",
+      "desc": "Dramatic cliffs and colorful villages along the sea",
+      "img": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcQsQcEzX_rbTfMAxPctoOqhKNe7N9Kp5z-7HbXRuU1Xs01f19N6Z4zyO_HfEy_z9G-kSX7_0jiDrwp5muiY-XpZX4z_H8LcCoKTNK2lEsu-XLFlBi8",
+      "tag": "Coast",
+      "city": "amalfi",
+      "country": "Italy",
+      "vibes": [
+        "romantic",
+        "scenic"
+      ],
+      "season": "summer"
+    },
+    {
+      "_id": "italy5",
+      "name": "Vatican City",
+      "desc": "St. Peter's Basilica and Sistine Chapel masterpieces",
+      "img": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcT8TnPnq5x2Z_Jx8AxcQWTMopRgvVKKMqF6wT0BwhAjYeJPgKf0ZZvSAZZIDiIWinzKB4p0zpEClbP0t1tpxOgQdqjE-bkf2ugrkVhxuLoB3CIQTQA",
+      "tag": "Religious",
+      "city": "vatican",
+      "country": "Italy",
+      "vibes": [
+        "spiritual",
+        "cultural"
+      ],
+      "season": "spring"
+    },
+    {
+      "_id": "italy6",
+      "name": "Florence Duomo",
+      "desc": "Magnificent cathedral with Brunelleschi's dome",
+      "img": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRPrh2dFlzeShaAmFcfU2I6DHxO-EmzozHo1v7DM1kudxXZqNisyS-6S3t_c2xJxpJryXRck3FkczE4l7xW__hz1izmRhPc4KuE93bnYkZt-mJfUiw",
+      "tag": "Cathedral",
+      "city": "florence",
+      "country": "Italy",
+      "vibes": [
+        "historic",
+        "artistic"
+      ],
+      "season": "autumn"
+    },
+    {
+      "_id": "spain1",
+      "name": "Sagrada Familia",
+      "desc": "Gaudí's unfinished masterpiece basilica",
+      "img": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcS92rCfj3ooriGK6fPQzSX0p1KbAO8PGT_W3gKyhsfUQg3I_4EfkfcwTa74OwW4dH4XFc1TIRcZ4WXdM3ZPIF9FWdgJgRjK2EkCaiQMizi4yTjXZ7Q",
+      "tag": "Church",
+      "city": "barcelona",
+      "country": "Spain",
+      "vibes": [
+        "artistic",
+        "modern"
+      ],
+      "season": "spring"
+    },
+    {
+      "_id": "spain2",
+      "name": "Alhambra",
+      "desc": "Stunning Moorish palace and fortress complex",
+      "img": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcQ7VEyhhq2xGy1rtg94QxyYGhvsIJErbuAcl79EI5odZQAlbC_OoWfk_Sff-5NPPsYZzpqYJI1pf9RE6Jl2ucIrQGISAwZgD7bEQ65tFTCsGorPLB8",
+      "tag": "Palace",
+      "city": "granada",
+      "country": "Spain",
+      "vibes": [
+        "historic",
+        "cultural"
+      ],
+      "season": "autumn"
+    },
+    {
+      "_id": "spain3",
+      "name": "Park Güell",
+      "desc": "Colorful Gaudí park with mosaics and views",
+      "img": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQhJedpXuETiT8aEI871HtQxjXM4zwgswq4ocTnbvop_tBtTUi7VDfHBIl4ZEf30DKlDe3ms2HLkkgNkxvYofX7amUdf9OcV6FDgIXNlv5Vc4LSrCY",
+      "tag": "Park",
+      "city": "barcelona",
+      "country": "Spain",
+      "vibes": [
+        "artistic",
+        "fun"
+      ],
+      "season": "summer"
+    },
+    {
+      "_id": "spain4",
+      "name": "Plaza de España",
+      "desc": "Grand square with tiled bridges and canal",
+      "img": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcT-feJjpnHRLvKIIcCs8aArOtS86LrniWzwQ03jVeM68XAbSkBCGoRIi8wuJ3jm1ThG7LC-aOsET5qwH6KnxD2RpNRNEYi6pFo8XtScpFWgSy-P1TU",
+      "tag": "Square",
+      "city": "seville",
+      "country": "Spain",
+      "vibes": [
+        "historic",
+        "romantic"
+      ],
+      "season": "spring"
+    },
+    {
+      "_id": "spain5",
+      "name": "Royal Palace Madrid",
+      "desc": "Opulent residence of Spanish royalty",
+      "img": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSLz6LzWHfyXldWweVEV2A-yXiTsASx6c4kfuTBrY6xoUGlos-FJbPv3hiwHnWs",
+      "tag": "Palace",
+      "city": "madrid",
+      "country": "Spain",
+      "vibes": [
+        "luxury",
+        "historic"
+      ],
+      "season": "autumn"
+    },
+    {
+      "_id": "spain6",
+      "name": "Ibiza Old Town",
+      "desc": "Whitewashed walled city with nightlife",
+      "img": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQ7ItmydzaqvPn0YtmB1h1QDcB6sP3UHBa4Iv76aruIDhNj-ybeez4VR3kxWlMZZVKsISTXsAwXxAWpV962a6eTik_RmIPhGhuAg1Tbn1aW72SUjZk",
+      "tag": "Historic",
+      "city": "ibiza",
+      "country": "Spain",
+      "vibes": [
+        "party",
+        "cultural"
+      ],
+      "season": "summer"
+    },
+    {
+      "_id": "usa1",
+      "name": "Statue of Liberty",
+      "desc": "Iconic symbol of freedom in New York Harbor",
+      "img": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcTpRRdHSY9xR8iXpb5SIVQ0Pb2sA9LTlw14q0RgHbYCe0k-9ptFpReFt37zk5j39ymn_u4U3wC9jF-VZt6JEmP43steMJGVJ_kp32iIsoBKhy_2YsY",
+      "tag": "Monument",
+      "city": "newyork",
+      "country": "USA",
+      "vibes": [
+        "historic",
+        "iconic"
+      ],
+      "season": "summer"
+    },
+    {
+      "_id": "usa2",
+      "name": "Grand Canyon",
+      "desc": "Vast colorful canyon carved by Colorado River",
+      "img": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQVulVecXHmtyAAcK0qxh9PJTWxa4DAGmJQy8YY8PB877HF-Gps0ZtlmDPIWQEGX-oTSA_QH8z1ll6Y-K2glDMlT4LWHq0APXZr0Pw80Rn218jzB2A",
+      "tag": "Nature",
+      "city": "grandcanyon",
+      "country": "USA",
+      "vibes": [
+        "adventure",
+        "nature"
+      ],
+      "season": "spring"
+    },
+    {
+      "_id": "usa3",
+      "name": "Times Square",
+      "desc": "Bright lights and billboards in NYC",
+      "img": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRuuttw1arIOjj-f7e8UshRiIklOJv6boVI-Y7lWQsX65ay2sA-kunP-RsUdG_3pR309FzHW3RloYvsteimySJah0u87RYkSyUWgXkC0pAYtCPVJL8",
+      "tag": "Urban",
+      "city": "newyork",
+      "country": "USA",
+      "vibes": [
+        "energetic",
+        "modern"
+      ],
+      "season": "any"
+    },
+    {
+      "_id": "usa4",
+      "name": "Golden Gate Bridge",
+      "desc": "Iconic red suspension bridge in San Francisco",
+      "img": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRoy8LHwcLL7eu5O1N2Y-iZ1FWUEIz30H1JItRbXrPWhAbluHk9Qm47fMIh0uh9FjjbIrREgK7RWjbq3mddiB5G09X0m2QqLUWg09j2W4K_7LU1x-E",
+      "tag": "Bridge",
+      "city": "sanfrancisco",
+      "country": "USA",
+      "vibes": [
+        "iconic",
+        "photography"
+      ],
+      "season": "autumn"
+    },
+    {
+      "_id": "usa5",
+      "name": "Yellowstone National Park",
+      "desc": "Geysers, hot springs and wildlife",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ_Nbx42V0KJmg4_LDA1NaT-Pt9lx2spzaDA-ugvbmHM63Fg7ohG15t4WOkRxx",
+      "tag": "Park",
+      "city": "yellowstone",
+      "country": "USA",
+      "vibes": [
+        "nature",
+        "adventure"
+      ],
+      "season": "summer"
+    },
+    {
+      "_id": "usa6",
+      "name": "Niagara Falls",
+      "desc": "Massive waterfalls on US-Canada border",
+      "img": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS0fwpD7GU1YMFo7fTdNdAUVYYUvWbUjY6w5e3wP5eBZ9WMwgmXmWxlwFilPiJm",
+      "tag": "Waterfall",
+      "city": "niagara",
+      "country": "USA",
+      "vibes": [
+        "nature",
+        "dramatic"
+      ],
+      "season": "summer"
+    },
+    {
+      "_id": "thailand1",
+      "name": "Grand Palace Bangkok",
+      "desc": "Ornate royal complex with Emerald Buddha",
+      "img": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSKY2INwHLm9jiY3ERT4M1N_qrJappTQmfnNloxujf8RF_5pYIE6obS86fHQpDJtZ_ukTLwLHVU30Ytvt9qs3AnhkNbQO-UIOFEtYbN0VYALvi2SkE",
+      "tag": "Palace",
+      "city": "bangkok",
+      "country": "Thailand",
+      "vibes": [
+        "cultural",
+        "historic"
+      ],
+      "season": "winter"
+    },
+    {
+      "_id": "thailand2",
+      "name": "Phi Phi Islands",
+      "desc": "Stunning limestone cliffs and turquoise waters",
+      "img": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcTBtZnkK0gGTsfArHIRipVWoKPU5B_H0FoXev8wOu6pQlP5tmlJfLkSUXzI8t5TE2XaMgPMZ75r_jCneFmQSHkA8fU0hfw13A4vcsK93gKaGPyxJbo",
+      "tag": "Islands",
+      "city": "phiphi",
+      "country": "Thailand",
+      "vibes": [
+        "beach",
+        "adventure"
+      ],
+      "season": "summer"
+    },
+    {
+      "_id": "thailand3",
+      "name": "Wat Arun",
+      "desc": "Riverside temple with porcelain decoration",
+      "img": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcQI5tQNyjSdwDTlp5Konc8qSULdGRW4gU5xcU2dBEm2uxM5ppyyGQCgk4zQ71KPw6607CFN2mHq214wo4qqar_ebKfcb3qSLqfa33w8V0ukpv5syPk",
+      "tag": "Temple",
+      "city": "bangkok",
+      "country": "Thailand",
+      "vibes": [
+        "spiritual",
+        "historic"
+      ],
+      "season": "any"
+    },
+    {
+      "_id": "thailand4",
+      "name": "Ayutthaya Ruins",
+      "desc": "Ancient capital with temple ruins",
+      "img": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQQUm7QZag4tSUZ_x7U05ekNPwIv1_QBBwpAPJ86s7h1qX__Sz-a_QuPODiSMRA48hipXR98Q6ZzJ5WVgfXpHlq8Bms5er_xnjfA7XZEjgaU1uQufo",
+      "tag": "Ruins",
+      "city": "ayutthaya",
+      "country": "Thailand",
+      "vibes": [
+        "historic",
+        "cultural"
+      ],
+      "season": "winter"
+    },
+    {
+      "_id": "thailand5",
+      "name": "Railay Beach",
+      "desc": "Cliff-surrounded beach for climbing",
+      "img": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcTXXUUBYBnPsoxYTPBRkaJIMJSfpj_uzTsRv2L2HCc7bcsEQKBKFUDr6g8fJXIgC_XLW5KBgdrMT-KyJFqNx35LT8FeRwhjE0cjvPjUy5D1mY8-j1E",
+      "tag": "Beach",
+      "city": "krabi",
+      "country": "Thailand",
+      "vibes": [
+        "adventure",
+        "relaxing"
+      ],
+      "season": "summer"
+    },
+    {
+      "_id": "thailand6",
+      "name": "Chiang Mai Temples",
+      "desc": "Ancient temples in mountain city",
+      "img": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcQqSz2d6gcNQdFmjO4eXdYS5VxNDaG5A5Fv7RK8ZQnGsqN1QpCzgyVudahCu8agJvkOWJITyXdtIHeW1GRO7tJG06IB8f1hmdQic-PedX_JKgGIO8w",
+      "tag": "Temple",
+      "city": "chiangmai",
+      "country": "Thailand",
+      "vibes": [
+        "spiritual",
+        "cultural"
+      ],
+      "season": "winter"
+    },
+    {
+      "_id": "uk1",
+      "name": "Big Ben & Parliament",
+      "desc": "Iconic clock tower and Gothic building",
+      "img": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTFQrpM3GatLfRxjwcuEFJXrj4m83le9Vr9S_Ddu0oCG69rooWi6HWs9X8b5P4kwOMPG_QJjDYs2kSBGihJ6Ndajcr5QouHj_EaIl4iun3UwzHN-YI",
+      "tag": "Landmark",
+      "city": "london",
+      "country": "UK",
+      "vibes": [
+        "historic",
+        "iconic"
+      ],
+      "season": "any"
+    },
+    {
+      "_id": "uk2",
+      "name": "Stonehenge",
+      "desc": "Prehistoric stone circle monument",
+      "img": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcRE0DLj233l8_V46M0hkTdEld_OHw1C9OactH_jO-jnL57BQ_24lY_iakIol-bvcfRq5yjGvzvMMrMc9xIfz-NzbbLcsPbUl5pl-3rEm5eCjOE_IrU",
+      "tag": "Ancient",
+      "city": "stonehenge",
+      "country": "UK",
+      "vibes": [
+        "mystical",
+        "historic"
+      ],
+      "season": "summer"
+    },
+    {
+      "_id": "uk3",
+      "name": "Edinburgh Castle",
+      "desc": "Historic fortress overlooking city",
+      "img": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcRHsyarFMZot-lhBp9UwzXSugVW_qnEF3NxIz58hh_hDBtDSPkJsrkQBWchMm5JaRBO6uCnAj5H6ceCfb78U9bCLdB8IjRtr1YeaF7tRkFwhXu-Tf8",
+      "tag": "Castle",
+      "city": "edinburgh",
+      "country": "UK",
+      "vibes": [
+        "historic",
+        "dramatic"
+      ],
+      "season": "summer"
+    },
+    {
+      "_id": "uk4",
+      "name": "Tower of London",
+      "desc": "Medieval fortress with Crown Jewels",
+      "img": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcSXPnV7l5W5A6IS-S4_kNvCA_tEyK4plvdY2i-2TSPms4okJVHkLgLBZoQFAjk20MH8-0atq-c3yc9UZiicXOjIqXAw6RHGoE7emqMZE9aGCWqhM2g",
+      "tag": "Historic",
+      "city": "london",
+      "country": "UK",
+      "vibes": [
+        "historic",
+        "royal"
+      ],
+      "season": "spring"
+    },
+    {
+      "_id": "uk5",
+      "name": "Lake District",
+      "desc": "Scenic lakes and mountains",
+      "img": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcTd93ZEMd78MRuPywM-wRZ1jTWxbbJdXhXb1-BTRY8QBdXyFfUpXv26GZxnLgFVOD_LOhWowkHkRaQz_n0jNbX2KZE2LAY-YCYKLBUT90iJn5rHMqI",
+      "tag": "Nature",
+      "city": "lakedistrict",
+      "country": "UK",
+      "vibes": [
+        "nature",
+        "serene"
+      ],
+      "season": "autumn"
+    },
+    {
+      "_id": "uk6",
+      "name": "Buckingham Palace",
+      "desc": "Royal residence with Changing of Guard",
+      "img": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcRzx5CEvtz8mXga-9yp7UfWEcEkyetCXcOsXpjTmK7CxGX9wdD5U6Uquoer7aAv5ZND2YzbcJyc2B4unr7HGMEPzGtwQ3Alqq67PwKyOmtB8LEeux4",
+      "tag": "Palace",
+      "city": "london",
+      "country": "UK",
+      "vibes": [
+        "royal",
+        "historic"
+      ],
+      "season": "summer"
+    },
+    {
+      "_id": "germany1",
+      "name": "Brandenburg Gate",
+      "desc": "Neoclassical monument symbol of unity",
+      "img": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcTJplA8HfkMENy1f88xKqvgcQQxyL6WJDztgl-OGpV4QKhwKw2gEclZw4qeS9IwjoSsb9qW2QScVcqSl3FDO0SCcJ2IehU5RDsykV764bC1yfjrSHg",
+      "tag": "Monument",
+      "city": "berlin",
+      "country": "Germany",
+      "vibes": [
+        "historic",
+        "iconic"
+      ],
+      "season": "any"
+    },
+    {
+      "_id": "germany2",
+      "name": "Neuschwanstein Castle",
+      "desc": "Fairy-tale castle in Bavarian Alps",
+      "img": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcQK4El7WyRhrmLfoAno6jY6aYV7hHWJ7VhbLGci3R8nzN5BpqkYk9WtYiPJCJZxzdQmRcLaZDl8TFsv3jyPPy_xYgnrV6-vR6nNZP144o7UD42c9po",
+      "tag": "Castle",
+      "city": "neuschwanstein",
+      "country": "Germany",
+      "vibes": [
+        "romantic",
+        "historic"
+      ],
+      "season": "autumn"
+    },
+    {
+      "_id": "germany3",
+      "name": "Cologne Cathedral",
+      "desc": "Gothic masterpiece with twin spires",
+      "img": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcRHMYhEgiexKqa2_DR54yDajLvwQL7Htuk1Q_DTirxKqRae8v77a4-EJ5OaUiTzF-mbF_4SvhpixOQ5GzgaGbOUNfl8q2S793JAHZNvkXIGmam-moc",
+      "tag": "Cathedral",
+      "city": "cologne",
+      "country": "Germany",
+      "vibes": [
+        "gothic",
+        "spiritual"
+      ],
+      "season": "winter"
+    },
+    {
+      "_id": "germany4",
+      "name": "Black Forest",
+      "desc": "Dense woodland with cuckoo clocks",
+      "img": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSh6JN101ss5l7nyMXU85gWzc5c4pzgKsmiQfqm-msz_CLG7vviIDeXNkF2Uoo6-8EFVFnAqw1CHy61gCCYVfsxHXgIk-0umVMmrSzxWckfc58KLqk",
+      "tag": "Forest",
+      "city": "blackforest",
+      "country": "Germany",
+      "vibes": [
+        "nature",
+        "serene"
+      ],
+      "season": "autumn"
+    },
+    {
+      "_id": "germany5",
+      "name": "Berlin Wall",
+      "desc": "Remnants and East Side Gallery art",
+      "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTxq60sWWod1U1LARJD52KlbMKIO4Y6TaWsmxMo5J4eKCz6gRcP3Z8ytkd-h0l2",
+      "tag": "Historic",
+      "city": "berlin",
+      "country": "Germany",
+      "vibes": [
+        "historic",
+        "urban"
+      ],
+      "season": "spring"
+    },
+    {
+      "_id": "germany6",
+      "name": "Oktoberfest Munich",
+      "desc": "World's largest beer festival",
+      "img": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcT1pX7Wib0tF_E5iVKvTYgDDd_VcUurIF7MC1U4LMQ8VaHbgKEznExRtY0vcODdiW_DB03ffGPeVQuw6jT-ET5yEcN3bRXkCEnx0ILcEosHo-Dadd8",
+      "tag": "Festival",
+      "city": "munich",
+      "country": "Germany",
+      "vibes": [
+        "festive",
+        "cultural"
+      ],
+      "season": "autumn"
+    },
+    {
+      "_id": "australia1",
+      "name": "Sydney Opera House",
+      "desc": "Iconic sail-like architecture on harbor",
+      "img": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcSTrYdi1M-n_vPO4_VOe6MwMdSngd7REZndnFrV65LZK0DP7iJCod3YnPPTBAhCkgFtRx9x5_RLO_0x1rHrwaI5fstxek3M6swnkVrsA8Jg9BJw8pc",
+      "tag": "Landmark",
+      "city": "sydney",
+      "country": "Australia",
+      "vibes": [
+        "modern",
+        "cultural"
+      ],
+      "season": "summer"
+    },
+    {
+      "_id": "australia2",
+      "name": "Great Barrier Reef",
+      "desc": "World's largest coral reef system",
+      "img": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcQpnoSW1elyETLMiB6rNh-OtCQnDAivGXC-cflqySuLYYzqGGHmR2dtsYhvqUM51OMSULa0INUBv6tolsJmoeKkujbO8dh7eSVEerhVWXLRYw_cimo",
+      "tag": "Reef",
+      "city": "cairns",
+      "country": "Australia",
+      "vibes": [
+        "nature",
+        "adventure"
+      ],
+      "season": "winter"
+    },
+    {
+      "_id": "australia3",
+      "name": "Uluru",
+      "desc": "Sacred red rock in outback",
+      "img": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRrK5Doah9d7gkNRErBMmDGUto_x9D8sGi-m3W04zGyZAxqaqsVrqyUNvcLn4cMR2CPm86NuTqa_oFjZPZb8ENsOgKGdXSrNmkj6b4hV2M43igtaWQ",
+      "tag": "Rock",
+      "city": "uluru",
+      "country": "Australia",
+      "vibes": [
+        "spiritual",
+        "nature"
+      ],
+      "season": "winter"
+    },
+    {
+      "_id": "australia4",
+      "name": "Bondi Beach",
+      "desc": "Famous surf beach in Sydney",
+      "img": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcSM3izJ-rlB6WJGEstz8oExUKpezustdmURDrxAo6fO0UiT1VFmpQj6bI9rLaPqWz_FqeX9VIhXwIlPIMlr0j_UkYiGDDwi4B7nXHfgqh3LGa6l0k8",
+      "tag": "Beach",
+      "city": "sydney",
+      "country": "Australia",
+      "vibes": [
+        "beach",
+        "urban"
+      ],
+      "season": "summer"
+    },
+    {
+      "_id": "australia5",
+      "name": "Great Ocean Road",
+      "desc": "Scenic coastal drive with 12 Apostles",
+      "img": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcQf-sY9BcGaBK0lmm2JhdtatYPDupdDTC62YS6kXaRBCIg6fqPAm7FmMmyUt5lCVNE4pfspdgP0MZ_2sO235rKOk3VO3bkRoeaDCx3b5A5Zm3Rh7Hs",
+      "tag": "Road",
+      "city": "greatoceanroad",
+      "country": "Australia",
+      "vibes": [
+        "scenic",
+        "adventure"
+      ],
+      "season": "spring"
+    },
+    {
+      "_id": "australia6",
+      "name": "Melbourne Laneways",
+      "desc": "Street art and cafe culture",
+      "img": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRhClWgLPwtdunv78sZ7A8NoFTwi5UWZT_427yngYjqiGP5fFi0gxVG6ufsx8gL",
+      "tag": "Urban",
+      "city": "melbourne",
+      "country": "Australia",
+      "vibes": [
+        "artistic",
+        "cultural"
+      ],
+      "season": "autumn"
+    },
+    {
+      "_id": "turkey1",
+      "name": "Hagia Sophia",
+      "desc": "Byzantine masterpiece turned mosque",
+      "img": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcReYOdSPYgEfrSkw5vwIByLUbpNWillR-lEy4CsQ6StuTpuwC0hG35LwzEEoeSI-LiNwamTO1-4GVY-Lju--80iHIHvlqHiIvv-YN3FEfOrS0Uc_Dc",
+      "tag": "Mosque",
+      "city": "istanbul",
+      "country": "Turkey",
+      "vibes": [
+        "historic",
+        "spiritual"
+      ],
+      "season": "spring"
+    },
+    {
+      "_id": "turkey2",
+      "name": "Cappadocia Balloons",
+      "desc": "Hot air balloons over fairy chimneys",
+      "img": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcR6oWhkmj7mhVwwZCmEHAml4djUPgR5XpcIh9Qafaea4pBOBTMWRHhJ5JGLLt1yRGP9eX9BYpTfjHGg7C0GCJ2BXuA7y2vaf1CxOur96GujPE02ZoQ",
+      "tag": "Nature",
+      "city": "cappadocia",
+      "country": "Turkey",
+      "vibes": [
+        "adventure",
+        "scenic"
+      ],
+      "season": "autumn"
+    },
+    {
+      "_id": "turkey3",
+      "name": "Ephesus Ruins",
+      "desc": "Ancient Roman city with Library of Celsus",
+      "img": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcTcP7Em1a7BK-zXEqhqQ5dWZX84TkoKszldbxzqK-fZkZY7yp4nlaRUtltv7nKooMixFCa9x00EMuFdm1yo6iLj7io7GMEY108ir-JD3-Iy20y07d4",
+      "tag": "Ruins",
+      "city": "ephesus",
+      "country": "Turkey",
+      "vibes": [
+        "historic",
+        "cultural"
+      ],
+      "season": "spring"
+    },
+    {
+      "_id": "turkey5",
+      "name": "Topkapi Palace",
+      "desc": "Ottoman sultans' residence with harem",
+      "img": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQ0hd27vjVn-Dvb-UmfPlHNFUzjXOMS7clQhODoe0mcLfazlYJjGkLc6Fxv9JJVmad4pTvP3BfaZqpakle0fc40WuU9Umzv21F9RCJlQ3yWM-IKMSM",
+      "tag": "Palace",
+      "city": "istanbul",
+      "country": "Turkey",
+      "vibes": [
+        "historic",
+        "luxury"
+      ],
+      "season": "autumn"
+    },
+    {
+      "_id": "turkey6",
+      "name": "Blue Mosque",
+      "desc": "Stunning mosque with blue tiles",
+      "img": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcQUqFsO3DiY654lbM9FBfxPH-unaLDkwdF4T78pdknEPThaVVhWBQhGxHGvnJPRI0BeAw5RqJuINxyrHW2irpaEaoEb5yu6g1KUtOOIQhSorFKOFfY",
+      "tag": "Mosque",
+      "city": "istanbul",
+      "country": "Turkey",
+      "vibes": [
+        "spiritual",
+        "architectural"
+      ],
+      "season": "spring"
+    },
+    {
+      "_id": "1766678068049",
+      "name": "pyramids",
+      "desc": "egyptian pyramids",
+      "img": "a",
+      "tag": "Landmark",
+      "city": "cairo",
+      "country": "egypt",
+      "vibes": [
+        "historic"
+      ],
+      "season": ""
+    }
+  ],
+  "stories": []
+}
